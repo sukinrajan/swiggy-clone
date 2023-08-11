@@ -1,0 +1,246 @@
+body {
+    margin: 0;
+}
+
+.swiggy-heading {
+    color: #fc8019;
+    font-family: fantasy;
+    font-size: xx-large;
+    font-weight: 500;
+}
+
+.div-1 {
+    width: 620px;
+    padding: 50px 70px;
+}
+
+.div-2 {
+    width: 600px;
+    background-image: url('images/swiggy_background.jpg');
+    background-size: cover;
+}
+
+.div {
+    display: flex;
+    flex-direction: row;
+}
+
+.swig-first--image {
+    width: 100%;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+}
+
+a {
+    text-decoration: none;
+}
+
+.signup {
+    background-color: black;
+    padding: 10px 24px;
+}
+
+.signup a {
+    color: white;
+    font-weight: 600;
+}
+
+.login a {
+    color: black;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+li {
+    list-style: none;
+    padding: 20px;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav {
+    padding-left: 185px;
+}
+
+.txt-hungry {
+    font-size: 60px;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: -5px;
+}
+
+.login a:hover {
+    color: #fc8019;
+}
+
+.input-search--location {
+    position: relative;
+    border: 1px solid gray;
+    width: 500px;
+    height: 60px;
+    position: relative;
+}
+
+.input-search--location:focus {
+    border: 1px solid #fc8019;
+}
+
+.btn-locateme {
+    position: absolute;
+    border: none;
+    width: 120px;
+    left: 430px;
+    margin-top: 20px;
+    background-color: white;
+    color: #535665;
+    height: 30px;
+}
+
+.btn-locateme:hover {
+    background-color: #a9abb2;
+}
+
+.txt-hungry-continue {
+    color: #686b78;
+    font-size: 24px;
+    padding-bottom: 10px;
+}
+
+.find-food {
+    background-color: #fc8019;
+    border: none;
+    width: 120px;
+    height: 65px;
+    color: white;
+}
+
+.search {
+    display: flex;
+    width: 150px
+}
+
+.img-logo {
+    width: auto;
+    height: 75px;
+}
+
+.txt-popular--cities {
+    color: #a9abb2;
+}
+
+.txt-grey {
+    color: #93959f;
+}
+
+.txt-popular--cities-continue {
+    color: #686b78;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background: #2b1e16;
+    padding-bottom: 50px;
+}
+
+.grid-item {
+    text-align: center;
+}
+
+.img-grid {
+    width: 110px;
+}
+
+.grid-3 {
+    margin-top: 30px;
+}
+
+.grid-txt {
+    text-align: center;
+}
+
+.grid-txt-head {
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.grid-txt-body {
+    color: #e0cbc1;
+}
+
+footer {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.img-foot {
+    width: 150px;
+    margin: 20px;
+}
+
+.txt-foot {
+    color: azure;
+    margin-top: 50px;
+    left: 300px;
+}
+
+footer i {
+    color: white;
+    padding-left: 10px;
+    margin-top: 60px;
+}
+
+.txt-head-playstore {
+    color: #282c3f;
+    font-family: Fantasy;
+    font-size: 40px;
+    font-weight: 300px;
+}
+
+.txt-head-playstore-cont {
+    font-size: 20px;
+    font-weight: 300;
+    padding-bottom: 40px;
+    color: #7e808c;
+    margin-top: -20px;
+}
+
+.div-parent-playstore {
+    display: flex;
+    flex-direction: row;
+}
+
+.img-app {
+    width: 180px;
+}
+
+.img-mob {
+    width: 380px;
+}
+
+.div-downloads {
+    width: 500px;
+    padding: 90px 70px;
+}
+
+.div-mobile-2 {
+    margin-top: 100px;
+    margin-left: -40px;
+}
+
+.div-mobile-1{
+margin-left: -40px;
+}
+::placeholder{
+    font-weight: 600;
+    color: #7e808c;
+    font-size: 17px;
+}
